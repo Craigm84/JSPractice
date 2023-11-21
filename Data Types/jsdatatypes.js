@@ -1,28 +1,28 @@
-let myname = "Craig"
+let myname = "Craig";
 
 console.log(myname)
 
-myname = "Not Craig"
+myname = "Not Craig";
 
 console.log(myname)
 
-let date= 20
+let date= 20;
 
 console.log(date)
 
-date = "21"
+date = "21";
 
 console.log(date)
 
-let learning = true
+let learning = true;
 
 console.log(learning)
 
-learning = false
+learning = false;
 
 console.log(learning)
 
-let surname = null
+let surname = null;
 
 console.log(surname)
 
@@ -34,13 +34,12 @@ console.log(typeof date)
 
 console.log(typeof myname)
 
-const hername = "Paige"
+const hername = "Paige";
 
 console.log(hername)
 
-hername = "Adele"
+hername = "Adele";
 
 console.log(hername)
-
 
 
