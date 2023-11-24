@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="eventhandling.js" defer></script>
+</head>
+
+<input>
+    <button onclick=hello()> Hello </button>
+    <br>
+    <label for=""> On Input</label>
+    <input type="text" oninput="hello('oninput')">
+    <br>
+    <label for=""> On Blur</label>
+    <input type="text" onblur="hello('onblur')">
+    <br>
+    <label for=""> On Focus</label>
+    <input type="text" onfocus="hello('onfocus')">
+    <br>
+    <button onclick="conslog()">LOG</button>
+    <br>
+    <button onclick="addText()">Add Text</button>
+    <p id="myP"></p>
+    <br>
+    <button onclick="clickCounter()">Click me!</button></p>
+    <input id="plus1" value="0" readonly></input>
+    <br>
+    <br>
+    <input id ="count" value = "0"></input>
+    <br>
+    <button onclick="add5()">Add 5</button>
+    <button onclick="add1()">Add 1</button>
+    <button onclick="reset()">Reset</button>
+    <button onclick="minus1()">Minus 1</button>
+    <button onclick="minus5()">Minus 5</button>
+
+</body>
+
+</html>
